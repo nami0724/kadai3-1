@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+ <html lang="ja">
+ <head>
+ <meta charset="utf-8">
+ <!--<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>-->
+ <link rel="stylesheet" href="style.css">
+ <title>電卓</title>
+ 
+ </head>
+ 
+ <body>
+     <div id="calculator">
+         <div colspan="4" id="result">0</div>
+           <!--<input type="text" class="display" name="display"value""disabled>-->
+         <!--</td>-->
+       <table buttons>
+       <!--上から１段目-->
+       <tr>
+         <td><button class="num_bth one_nine" date-index-id =7>7</button></td>
+         <td><button class="num_bth one_nine" date-index-id =8>8</button></td>
+         <td><button class="num_bth one_nine" date-index-id =9>9</button></td>
+         <td><button class = "num_bth cal" data-index-id = '+'>+</button></td>
+       
+       <!--上から２段目-->
+       <tr>
+         <td><button class="num_bth one_nine" date-index-id =4>4</button></td>
+         <td><button class="num_bth one_nine" date-index-id =5>5</button></td>
+         <td><button class="num_bth one_nine" date-index-id =6>6</button></td>
+         <td><button class = "num_bth cal" data-index-id = '-'>-</button></td>
+       </tr>
+         <!--上から３段目-->
+        <tr>
+          <td><button class="num_bth one_nine" date-index-id =1>1</button></td>
+          <td><button class="num_bth one_nine" date-index-id =2>2</button></td>
+          <td><button class="num_bth one_nine" date-index-id =3>3</button></td>
+          <td><button class = "num_bth cal" data-index-id = '*'>*</button></td>
+         </tr>
+         
+         <!--上から４段目-->
+         <tr>
+          <td><button class="num_bth one_nine" date-index-id =>0</button></td>
+          <td><button class="num_bth one_nine" date-index-id =>00</button></td>
+          <td><button class = "num_bth cal" data-index-id = '.'>.</button></td>
+          <td><button class = "num_bth cal" data-index-id = '/'>/</button></td>
+         </tr>
+         
+         <!--上から５段目-->
+         <tr>
+          <td colspan ="2"><button>AC</button></td>
+          <td colspan ="2"><button>=</button></td>
+         </tr>
+    </table>
+     </div>
+ 
+ <script src="mafia.js"></script>
+ </body>
+ </html>
